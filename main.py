@@ -15,4 +15,4 @@ def download_yt_video(url):
     downloads_folder = os.path.join(os.environ['USERPROFILE'], 'Downloads')
     yd.download(downloads_folder)
 
-eel.start("index.html", size=(720,480))
+eel.start("index.html", size=(1000,800))
