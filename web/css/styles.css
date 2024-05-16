@@ -1,0 +1,12 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#btnDownload {
+    transition: all .5s;
+}
+
+#btnDownload:hover {
+    background-color: #0DCAF0 !important;
+    color: #032830 !important;
+}

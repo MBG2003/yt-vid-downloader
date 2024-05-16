@@ -29,8 +29,6 @@ audio.download(downloads_folder, 'audio_'+audio.default_filename)
 downloaded_video_path = os.path.join(downloads_folder, 'video_'+video.default_filename)
 downloaded_audio_path = os.path.join(downloads_folder, 'audio_'+audio.default_filename)
 
-print(downloads_folder)
-
 # Combinar video y audio
 video_clip = VideoFileClip(downloaded_video_path)
 audio_clip = AudioFileClip(downloaded_audio_path)
